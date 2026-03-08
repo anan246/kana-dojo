@@ -21,7 +21,7 @@ import Effects from '../display/Effects';
 
 const Settings = () => {
   return (
-    <div className='flex flex-col gap-6'>
+    <div className='flex flex-col gap-10'>
       <PreferencesSectionNav />
 
       {/* Behavior Section */}
@@ -98,13 +98,16 @@ const Settings = () => {
       */}
 
       {/* Backup Section - not collapsible since it's short */}
-      <div className='flex flex-col gap-4'>
-        <h3 className='flex flex-row items-end gap-2 border-l-10 border-(--border-color) py-3 pl-4 text-2xl'>
-          <Save size={22} className='text-(--secondary-color)' />
-          <span>Backup</span>
-        </h3>
+      <CollapsibleSection
+        title='Backup'
+        fullBorder
+        icon={<Save size={28} />}
+        level='section'
+        defaultOpen={true}
+        storageKey='prefs-backup'
+      >
         <Backup />
-      </div>
+      </CollapsibleSection>
 
       {/* Coming Soon */}
       <div className='mb-12 flex flex-col gap-4'>
