@@ -310,7 +310,7 @@
   {
     "id": 52,
     "text": "\"〜おかげで\" expresses gratitude for a cause, \"thanks to\".",
-    "completed": false,
+    "completed": true,
     "issued": false
   },
   {
@@ -322,7 +322,7 @@
   {
     "id": 54,
     "text": "\"〜ほど\" can express degree, like \"so... that\".",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
