@@ -69,7 +69,7 @@
     "jlpt": "N3",
     "id": 8,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "日本のニュースを毎日読むようにしています。",
@@ -96,7 +96,7 @@
     "jlpt": "N3",
     "id": 11,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "宿題を忘れないように、カレンダーに書いておきます。",
@@ -104,7 +104,7 @@
     "english": "I'll put it in my calendar so I won't forget homework.",
     "jlpt": "N4",
     "id": 12,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
